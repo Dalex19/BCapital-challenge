@@ -8,7 +8,7 @@ function App() {
       <Header />
       <div className="m-auto px-[20px] py-[40px] flex flex-col items-center gap-8">
         <h1 className="text-2xl  text-[#111B54] font-bold">KIT PLANS</h1>
-        <div className=" flex justify-around w- full">
+        <div className=" flex justify-around w-full flex-wrap gap-4">
           <Card name="Basic" precie="20" />
           <Card name="Basic" precie="50" />
           <Card name="Basic" precie="100" />
@@ -20,7 +20,7 @@ function App() {
       <div className="m-auto px-[20px] py-[40px] flex flex-col items-center gap-8">
         <h1 className="text-2xl  text-[#111B54] font-bold">SERVICIOS</h1>
         <div className="m-auto w-full px-[20px] py-[40px] flex flex-col items-center gap-8">
-          <div className="flex flex-row justify-around w-full">
+          <div className="flex flex-row justify-around w-full flex-wrap gap-4">
           <CardService />
             <CardService />
             <CardService />
